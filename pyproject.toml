@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "basler-cv"
+version = "0.1.0"
+description = "OpenCV‑like wrapper for Basler (pypylon) cameras."
+authors = [{name = "Temple Lin"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pypylon>=1.9.3",
+    "opencv-python>=4.0.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/basler_cv/__init__.py
+src/basler_cv/camera.py
+src/basler_cv.egg-info/PKG-INFO
+src/basler_cv.egg-info/SOURCES.txt
+src/basler_cv.egg-info/dependency_links.txt
+src/basler_cv.egg-info/requires.txt
+src/basler_cv.egg-info/top_level.txt
+tests/test_import.py
