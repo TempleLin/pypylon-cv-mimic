@@ -17,10 +17,16 @@ with BaslerCamera(pixel_format="BayerRG8", exposure_time=16_700, frame_rate=21.0
 cv2.destroyAllWindows()
 ```
 
-## Installation (editable)
+## Usage Installation
 
 ```bash
-git clone https://github.com/your-org/basler-cv.git
+git clone https://github.com/TempleLin/pypylon-cv-mimic.git
+```
+
+## Development Installation (editable)
+
+```bash
+git clone https://github.com/TempleLin/pypylon-cv-mimic.git
 cd basler-cv
 pip install -e .
 ```
