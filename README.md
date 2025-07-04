@@ -20,7 +20,7 @@ cv2.destroyAllWindows()
 ## Usage Installation
 
 ```bash
-git clone https://github.com/TempleLin/pypylon-cv-mimic.git
+pip install git+https://github.com/TempleLin/pypylon-cv-mimic.git
 ```
 
 ## Development Installation (editable)
